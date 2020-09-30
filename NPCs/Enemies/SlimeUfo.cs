@@ -27,7 +27,7 @@ namespace SpaceModjam.NPCs.Enemies
             npc.noGravity = true;
             npc.noTileCollide = true;
             npc.HitSound = SoundID.NPCHit4;
-            npc.DeathSound = SoundID.NPCDeath1;
+            npc.DeathSound = SoundID.NPCDeath14;
         }
         public override void AI()
         {
