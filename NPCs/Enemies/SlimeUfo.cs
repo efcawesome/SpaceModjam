@@ -26,7 +26,7 @@ namespace SpaceModjam.NPCs.Enemies
             npc.npcSlots = 1;
             npc.noGravity = true;
             npc.noTileCollide = true;
-            npc.HitSound = SoundID.NPCHit1;
+            npc.HitSound = SoundID.NPCHit4;
             npc.DeathSound = SoundID.NPCDeath1;
         }
         public override void AI()
@@ -36,7 +36,7 @@ namespace SpaceModjam.NPCs.Enemies
             Player player = Main.player[npc.target];
             Vector2 target = npc.HasPlayerTarget ? player.Center : Main.npc[npc.target].Center;
             npc.netAlways = true;
-            if (npc.ai[0] >= 60 && Math.Abs(target.X - npc.Center.X) < 5)
+            if (npc.ai[0] >= 60 && Math.Abs(target.X - npc.Center.X) < 5  && npc.Center.Y <= target.Y)
             {
                 shootAttack = true;
                 npc.ai[0] = 0;
@@ -47,7 +47,7 @@ namespace SpaceModjam.NPCs.Enemies
                 npc.ai[1]++;
                 if (npc.ai[1] >= 8)
                 {
-                    Projectile.NewProjectile(new Vector2(npc.Center.X, npc.Center.Y - npc.height), new Vector2(0, 10), ProjectileID.PinkLaser, npc.damage / 3, 1.5f);
+                    Projectile.NewProjectile(new Vector2(npc.Center.X, npc.Center.Y - npc.height), new Vector2(0, 10), ProjectileID.PinkLaser, npc.damage / 3, 1.5f); //TODO: custom proj
                     npc.ai[1] = 0;
                     shootAttack = false;
                 }
