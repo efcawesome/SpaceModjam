@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BlpPz4wpm0lfmW9lRVcMo8TosDThudGSwaSCYZqQFadP3NViLkK4OhhlXu8Z+wnPidMWsq4AiSumCXFkpqQLag==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\efcaw\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\SpaceModjam\\SpaceModjam.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\efcaw\\.nuget\\packages\\tmodloader.codeassist\\0.1.1\\tmodloader.codeassist.0.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
