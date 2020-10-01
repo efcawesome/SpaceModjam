@@ -3,7 +3,7 @@ using Terraria.ModLoader;
 
 namespace SpaceModjam.Items
 {
-	public class Cloud_Bar : ModItem
+	public class CloudBar : ModItem
 	{
 		public override void SetStaticDefaults() 
 		{
@@ -27,7 +27,7 @@ namespace SpaceModjam.Items
 		public override void AddRecipes() 
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(mod, "Cloud_Ore", 2);
+			recipe.AddIngredient(mod, "CloudOre", 2);
 			recipe.AddTile(TileID.Anvils);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
