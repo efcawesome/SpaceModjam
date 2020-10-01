@@ -1,7 +1,9 @@
 ﻿using System.Threading.Tasks;
+using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
 using SpaceModjam.Items.Materials;
+using SpaceModjam.Projectiles.Melee;
 
 namespace SpaceModjam.Items.Weapons.Melee
 {

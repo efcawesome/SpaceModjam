@@ -5,7 +5,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace SpaceModjam.Projectiles
+namespace SpaceModjam.Projectiles.Magic
 {
 	public class CloudBeamProj : ModProjectile
 	{
