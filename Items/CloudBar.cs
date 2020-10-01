@@ -17,17 +17,17 @@ namespace SpaceModjam.Items
 			item.height = 40;
 			item.useTime = 25;
 			item.useAnimation = 20;
-			item.useStyle = 1;
+			item.useStyle = ItemUseStyleID.SwingThrow;
 			item.knockBack = 4;
 			item.value = 300;
-			item.rare = 2;
+			item.rare = ItemRarityID.Green;
 			item.maxStack = 999;
 		}
 
 		public override void AddRecipes() 
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(mod, "CloudOre", 2);
+			recipe.AddIngredient(mod, "CloudOre", 3);
 			recipe.AddTile(TileID.Anvils);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
