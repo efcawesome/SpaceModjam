@@ -28,5 +28,15 @@ namespace SpaceModjam
 		{
 			instance = null;
 		}
+		
+		public override void PostSetupContent()
+		{
+			// Boss Checklist Compatibility
+			Mod bossChecklist = ModLoader.GetMod("BossChecklist");
+			if (bossChecklist != null)
+			{
+				// When we have an actual boss, we'll make it.
+			}
+		}
 	}
 }
