@@ -1,7 +1,7 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using SpaceModjam.Tiles;
+using SpaceModjam.Tiles.Ores;
 
 namespace SpaceModjam.Items.Materials
 {

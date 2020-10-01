@@ -8,6 +8,8 @@ namespace SpaceModjam
 	{
 		internal static SpaceModjam instance;
 		
+		public static string PlaceholderTexture = "SpaceModjam/PLACEHOLDER";
+		
 		public SpaceModjam()
 		{
 			Properties = new ModProperties()
