@@ -21,7 +21,7 @@ namespace Xtraarmory.Items.Placeble
 			item.autoReuse = true;
 			item.maxStack = 999;
 			item.consumable = true;
-			item.createTile = TileType<Tiles.Cloud_Ore>();
+			item.createTile = TileType<Tiles.CloudOre>();
 			item.width = 12;
 			item.height = 12;
 			item.height = 12;
