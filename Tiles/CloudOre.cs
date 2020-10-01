@@ -6,7 +6,7 @@ using static Terraria.ModLoader.ModContent;
 
 namespace SpaceModjam.Tiles
 {
-	public class Cloud_Ore : ModTile
+	public class CloudOre : ModTile
 	{
 		public override void SetDefaults()
 		{
