@@ -6,6 +6,8 @@ namespace SpaceModjam.Items.Accessories
 {
 	public class SludgeinaBottle : ModItem
 	{
+		public override string Texture => SpaceModjam.PlaceholderTexture;
+		
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Sludge in a Bottle");

@@ -6,6 +6,8 @@ namespace SpaceModjam.Items.Materials
 {
 	public class PurpleSludge : ModItem
 	{
+		public override string Texture => SpaceModjam.PlaceholderTexture;
+		
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Purple Sludge");
