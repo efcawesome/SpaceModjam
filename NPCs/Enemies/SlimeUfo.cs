@@ -29,7 +29,7 @@ namespace SpaceModjam.NPCs.Enemies
             npc.npcSlots = 1f;
             npc.HitSound = SoundID.NPCHit4;
             npc.DeathSound = SoundID.NPCDeath14;
-			npc.value = Item.sellPrice();
+	    npc.value = Item.sellPrice();
         }
 		
         public override void AI()
