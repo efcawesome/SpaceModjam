@@ -15,7 +15,7 @@ namespace SpaceModjam.Items.Weapons.Magic
     {
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("Paper as thin as air itself.");
+            Tooltip.SetDefault("Crafted with paper as thin as air itself.");
         }
         public override void SetDefaults()
         {
