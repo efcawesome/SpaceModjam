@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
+using SpaceModjam.Items.Materials;
 using SpaceModjam.Projectiles.Magic;
 using System;
 using System.Collections.Generic;
