@@ -1,5 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
-using SpaceModjam.Projectiles.Mage;
+using SpaceModjam.Projectiles.Magic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
