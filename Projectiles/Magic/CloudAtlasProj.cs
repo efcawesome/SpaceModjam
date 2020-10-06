@@ -8,7 +8,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace SpaceModjam.Projectiles.Mage
+namespace SpaceModjam.Projectiles.Magic
 {
     class CloudAtlasProj : ModProjectile
     {
