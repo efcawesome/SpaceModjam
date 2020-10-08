@@ -58,6 +58,12 @@ namespace SpaceModjam.NPCs.Enemies {
                 npc.velocity.Y += 0.2f;
             }
         }
+
+        public override bool PreNPCLoot() {
+            NPC.NewNPC((int)npc.Center.X, (int)npc.Center.Y, (int)mod.NPCType("SpaceSlime"));
+            return base.PreNPCLoot();
+        }
+
         public override float SpawnChance(NPCSpawnInfo spawnInfo) {
             return SpawnCondition.Sky.Chance * 0.2f;
         }
